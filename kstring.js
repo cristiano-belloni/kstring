@@ -24,7 +24,7 @@ define([], function() {
         for (var i = 0; i < 6; i+=1) {
             var newDiv = document.createElement("div");
             newDiv.innerHTML = "&nbsp;&nbsp;";
-            newDiv.setAttribute("style","font-family: Monospace; text-decoration: line-through; font-size: 24px;");
+            newDiv.setAttribute("style","font-family: Monospace; text-decoration: line-through; font-size: 24px; background-color: white");
             var newSpan = document.createElement("span");
             newSpan.innerHTML = "&nbsp;&nbsp;&nbsp;"
             var num = 5 - i;
